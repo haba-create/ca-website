@@ -1,0 +1,22 @@
+{
+  "name": "ca-website",
+  "version": "1.0.0",
+  "description": "Bilingual marketing website for social media marketing company",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "keywords": [
+    "marketing",
+    "social-media",
+    "bilingual"
+  ],
+  "license": "MIT"
+}
