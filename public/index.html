@@ -3,67 +3,484 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Macrolinks Associates - An integrated approach to business. Worldwide support and consultancy for sustainable development.">
+  <meta name="description" content="Macrolinks Associates - An integrated approach to business. Worldwide support and consultancy for sustainable development. Professional recruitment, training and project services.">
   <title>Macrolinks Associates | An integrated approach to business</title>
   <link rel="stylesheet" href="/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Language Switch -->
-  <div class="language-switch">
-    <button class="lang-btn active" data-lang="en">EN</button>
-    <button class="lang-btn" data-lang="de">DE</button>
-  </div>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo">
+        <div class="logo-cog"></div>
+        <span>MACROLINKS</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home" data-en="Home" data-de="Startseite">Home</a></li>
+        <li><a href="#about" data-en="About Us" data-de="Über uns">About Us</a></li>
+        <li><a href="#services" data-en="Services" data-de="Leistungen">Services</a></li>
+        <li><a href="#jobs" data-en="Job Opportunities" data-de="Stellenangebote">Job Opportunities</a></li>
+        <li><a href="#contact" data-en="Contact" data-de="Kontakt">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="language-switch">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="de">DE</button>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
 
-  <!-- First Half - Company Introduction -->
-  <section class="section-intro">
+  <!-- Hero Section -->
+  <section id="home" class="hero">
     <div class="container">
-      <h1 class="main-title">MACROLINKS</h1>
+      <div class="hero-content">
+        <h1 class="main-title">MACROLINKS</h1>
 
-      <div class="visual-element">
-        <div class="globe">
-          <div class="globe-image"></div>
+        <div class="visual-element">
+          <div class="globe">
+            <div class="globe-image">
+              <div class="globe-shine"></div>
+              <div class="globe-continents"></div>
+            </div>
+            <div class="globe-ring"></div>
+          </div>
+          <div class="arrow-line">
+            <div class="arrow-pulse"></div>
+          </div>
+          <div class="cogs-group">
+            <div class="cog cog-grey cog-small"></div>
+            <div class="cog cog-grey cog-medium"></div>
+            <div class="cog cog-blue cog-large"></div>
+          </div>
         </div>
-        <div class="arrow-line">
-          <svg viewBox="0 0 200 2" preserveAspectRatio="none">
-            <line x1="0" y1="1" x2="200" y2="1" stroke="#1a5fa4" stroke-width="2"/>
-          </svg>
-        </div>
-        <div class="cogs-group">
-          <div class="cog cog-grey cog-small"></div>
-          <div class="cog cog-grey cog-medium"></div>
-          <div class="cog cog-blue cog-large"></div>
+
+        <h2 class="subtitle">ASSOCIATES</h2>
+        <p class="tagline" data-en="An integrated approach to business" data-de="Ein integrierter Ansatz für Unternehmen">An integrated approach to business</p>
+
+        <p class="hero-description" data-en="Your trusted partner for international recruitment, professional training, and business consultancy services worldwide." data-de="Ihr vertrauenswürdiger Partner für internationale Rekrutierung, professionelle Schulung und Unternehmensberatung weltweit.">Your trusted partner for international recruitment, professional training, and business consultancy services worldwide.</p>
+
+        <div class="hero-buttons">
+          <a href="#jobs" class="btn btn-primary" data-en="View Opportunities" data-de="Stellenangebote ansehen">View Opportunities</a>
+          <a href="#contact" class="btn btn-secondary" data-en="Get in Touch" data-de="Kontakt aufnehmen">Get in Touch</a>
         </div>
       </div>
 
-      <h2 class="subtitle">ASSOCIATES</h2>
-      <p class="tagline" data-en="An integrated approach to business" data-de="Ein integrierter Ansatz für Unternehmen">An integrated approach to business</p>
-
-      <div class="company-description">
-        <p data-en="Macrolinks Associates is an International establishment which was set up with the fundamental aim of providing support and consultancy services to Companies worldwide. Its goal is to assist them at all stages of their development with appropriate and skilled expertise, wherever they need it." data-de="Macrolinks Associates ist ein internationales Unternehmen, das mit dem grundlegenden Ziel gegründet wurde, Unternehmen weltweit Unterstützung und Beratungsdienstleistungen anzubieten. Sein Ziel ist es, sie in allen Phasen ihrer Entwicklung mit angemessener und qualifizierter Expertise zu unterstützen, wo immer sie diese benötigen.">Macrolinks Associates is an International establishment which was set up with the fundamental aim of providing support and consultancy services to Companies worldwide. Its goal is to assist them at all stages of their development with appropriate and skilled expertise, wherever they need it.</p>
-
-        <p data-en="It incorporates a breadth of expertise with affiliates, associates and relevant contacts around the world." data-de="Es vereint ein breites Spektrum an Fachwissen mit Partnern, Mitarbeitern und relevanten Kontakten auf der ganzen Welt.">It incorporates a breadth of expertise with affiliates, associates and relevant contacts around the world.</p>
-
-        <p data-en="We pride ourselves on our professionalism and deliver nothing less than quality, reliability and flexibility." data-de="Wir sind stolz auf unsere Professionalität und liefern nichts weniger als Qualität, Zuverlässigkeit und Flexibilität.">We pride ourselves on our professionalism and deliver nothing less than quality, reliability and flexibility.</p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" data-count="500">0</span>
+          <span class="stat-suffix">+</span>
+          <span class="stat-label" data-en="Placements Made" data-de="Vermittlungen">Placements Made</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="25">0</span>
+          <span class="stat-suffix">+</span>
+          <span class="stat-label" data-en="Countries Served" data-de="Länder betreut">Countries Served</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="98">0</span>
+          <span class="stat-suffix">%</span>
+          <span class="stat-label" data-en="Client Satisfaction" data-de="Kundenzufriedenheit">Client Satisfaction</span>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Second Half - Services -->
-  <section class="section-services">
+  <!-- About Section -->
+  <section id="about" class="about">
     <div class="container">
-      <div class="services-header">
-        <h2 class="services-title" data-en="Support" data-de="Unterstützung">Support</h2>
-        <p class="services-subtitle" data-en="and Consultancy" data-de="und Beratung">and Consultancy</p>
-        <p class="services-subtitle" data-en="Services in" data-de="Dienstleistungen in">Services in</p>
+      <div class="section-header">
+        <h2 data-en="About Macrolinks Associates" data-de="Über Macrolinks Associates">About Macrolinks Associates</h2>
+        <div class="header-line"></div>
       </div>
 
-      <div class="services-list">
-        <div class="service-item" data-en="Projects" data-de="Projekte">Projects</div>
-        <div class="service-item" data-en="Training" data-de="Schulung">Training</div>
-        <div class="service-item" data-en="Recruitment" data-de="Rekrutierung">Recruitment</div>
+      <div class="about-grid">
+        <div class="about-content">
+          <p class="about-lead" data-en="Macrolinks Associates is an International establishment which was set up with the fundamental aim of providing support and consultancy services to Companies worldwide." data-de="Macrolinks Associates ist ein internationales Unternehmen, das mit dem grundlegenden Ziel gegründet wurde, Unternehmen weltweit Unterstützung und Beratungsdienstleistungen anzubieten.">Macrolinks Associates is an International establishment which was set up with the fundamental aim of providing support and consultancy services to Companies worldwide.</p>
+
+          <p data-en="Its goal is to assist them at all stages of their development with appropriate and skilled expertise, wherever they need it. It incorporates a breadth of expertise with affiliates, associates and relevant contacts around the world." data-de="Sein Ziel ist es, sie in allen Phasen ihrer Entwicklung mit angemessener und qualifizierter Expertise zu unterstützen, wo immer sie diese benötigen. Es vereint ein breites Spektrum an Fachwissen mit Partnern, Mitarbeitern und relevanten Kontakten auf der ganzen Welt.">Its goal is to assist them at all stages of their development with appropriate and skilled expertise, wherever they need it. It incorporates a breadth of expertise with affiliates, associates and relevant contacts around the world.</p>
+
+          <p data-en="We pride ourselves on our professionalism and deliver nothing less than quality, reliability and flexibility." data-de="Wir sind stolz auf unsere Professionalität und liefern nichts weniger als Qualität, Zuverlässigkeit und Flexibilität.">We pride ourselves on our professionalism and deliver nothing less than quality, reliability and flexibility.</p>
+        </div>
+
+        <div class="about-features">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <h3 data-en="25+ Years Experience" data-de="25+ Jahre Erfahrung">25+ Years Experience</h3>
+            <p data-en="Decades of expertise in international business consultancy" data-de="Jahrzehnte Erfahrung in internationaler Unternehmensberatung">Decades of expertise in international business consultancy</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 data-en="Global Network" data-de="Globales Netzwerk">Global Network</h3>
+            <p data-en="Associates and contacts across Europe, Asia, and Africa" data-de="Partner und Kontakte in Europa, Asien und Afrika">Associates and contacts across Europe, Asia, and Africa</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <h3 data-en="Quality Assured" data-de="Qualitätsgesichert">Quality Assured</h3>
+            <p data-en="Committed to excellence in every engagement" data-de="Exzellenz in jedem Engagement">Committed to excellence in every engagement</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-en="What We Offer" data-de="Was wir bieten">What We Offer</span>
+        <h2 data-en="Support and Consultancy Services" data-de="Unterstützung und Beratungsleistungen">Support and Consultancy Services</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon-wrapper">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+              </svg>
+            </div>
+          </div>
+          <h3 data-en="Projects" data-de="Projekte">Projects</h3>
+          <p data-en="Management and coordination of international projects. We provide support acting as an interface for companies abroad, facilitating activities and linking up to key contacts." data-de="Management und Koordination internationaler Projekte. Wir bieten Unterstützung als Schnittstelle für Unternehmen im Ausland, erleichtern Aktivitäten und stellen Verbindungen zu wichtigen Kontakten her.">Management and coordination of international projects. We provide support acting as an interface for companies abroad, facilitating activities and linking up to key contacts.</p>
+          <a href="#contact" class="service-link" data-en="Learn More" data-de="Mehr erfahren">Learn More <span>&rarr;</span></a>
+        </div>
+
+        <div class="service-card featured">
+          <div class="featured-badge" data-en="Most Popular" data-de="Beliebteste">Most Popular</div>
+          <div class="service-icon-wrapper">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+          </div>
+          <h3 data-en="Recruitment" data-de="Rekrutierung">Recruitment</h3>
+          <p data-en="International recruitment services connecting talented professionals with leading organizations. Specializing in executive search, technical recruitment, and workforce solutions across multiple industries." data-de="Internationale Rekrutierungsdienste, die talentierte Fachkräfte mit führenden Organisationen verbinden. Spezialisiert auf Executive Search, technische Rekrutierung und Personallösungen in verschiedenen Branchen.">International recruitment services connecting talented professionals with leading organizations. Specializing in executive search, technical recruitment, and workforce solutions across multiple industries.</p>
+          <a href="#jobs" class="service-link" data-en="View Open Positions" data-de="Offene Stellen ansehen">View Open Positions <span>&rarr;</span></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrapper">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 20h9"></path>
+                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+              </svg>
+            </div>
+          </div>
+          <h3 data-en="Training" data-de="Schulung">Training</h3>
+          <p data-en="Professional development and in-house language training programs. Customized courses in business skills, technical competencies, and cross-cultural communication for your team." data-de="Berufliche Weiterentwicklung und firmeninterne Sprachschulungen. Maßgeschneiderte Kurse in Geschäftsfähigkeiten, technischen Kompetenzen und interkultureller Kommunikation für Ihr Team.">Professional development and in-house language training programs. Customized courses in business skills, technical competencies, and cross-cultural communication for your team.</p>
+          <a href="#contact" class="service-link" data-en="Learn More" data-de="Mehr erfahren">Learn More <span>&rarr;</span></a>
+        </div>
+      </div>
+
+      <!-- Additional Services -->
+      <div class="additional-services">
+        <h3 data-en="Additional Consultancy Services" data-de="Zusätzliche Beratungsleistungen">Additional Consultancy Services</h3>
+        <div class="additional-grid">
+          <div class="additional-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="1" x2="12" y2="23"></line>
+              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+            </svg>
+            <span data-en="Market Research" data-de="Marktforschung">Market Research</span>
+          </div>
+          <div class="additional-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+            </svg>
+            <span data-en="Business Planning" data-de="Geschäftsplanung">Business Planning</span>
+          </div>
+          <div class="additional-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+            <span data-en="International Marketing" data-de="Internationales Marketing">International Marketing</span>
+          </div>
+          <div class="additional-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+            </svg>
+            <span data-en="Feasibility Studies" data-de="Machbarkeitsstudien">Feasibility Studies</span>
+          </div>
+          <div class="additional-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+            <span data-en="Translation Services" data-de="Übersetzungsdienste">Translation Services</span>
+          </div>
+          <div class="additional-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+            <span data-en="Quality Standards (ISO)" data-de="Qualitätsstandards (ISO)">Quality Standards (ISO)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Jobs Section -->
+  <section id="jobs" class="jobs">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-en="Career Opportunities" data-de="Karrieremöglichkeiten">Career Opportunities</span>
+        <h2 data-en="Current Job Openings" data-de="Aktuelle Stellenangebote">Current Job Openings</h2>
+        <div class="header-line"></div>
+        <p class="section-description" data-en="Discover exciting career opportunities with our partner companies worldwide" data-de="Entdecken Sie spannende Karrieremöglichkeiten bei unseren Partnerunternehmen weltweit">Discover exciting career opportunities with our partner companies worldwide</p>
+      </div>
+
+      <div class="jobs-filter">
+        <button class="filter-btn active" data-filter="all" data-en="All Positions" data-de="Alle Stellen">All Positions</button>
+        <button class="filter-btn" data-filter="engineering" data-en="Engineering" data-de="Ingenieurwesen">Engineering</button>
+        <button class="filter-btn" data-filter="management" data-en="Management" data-de="Management">Management</button>
+        <button class="filter-btn" data-filter="consulting" data-en="Consulting" data-de="Beratung">Consulting</button>
+      </div>
+
+      <div class="jobs-grid">
+        <div class="job-card" data-category="engineering">
+          <div class="job-header">
+            <span class="job-type" data-en="Full-time" data-de="Vollzeit">Full-time</span>
+            <span class="job-new" data-en="New" data-de="Neu">New</span>
+          </div>
+          <h3 data-en="Senior Project Engineer" data-de="Senior Projektingenieur">Senior Project Engineer</h3>
+          <p class="job-company">TechCorp Industries</p>
+          <div class="job-details">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Munich, Germany</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <span data-en="Posted 2 days ago" data-de="Vor 2 Tagen veröffentlicht">Posted 2 days ago</span></span>
+          </div>
+          <p class="job-description" data-en="Lead engineering projects for sustainable infrastructure development. Requires 5+ years experience in civil or mechanical engineering." data-de="Leitung von Ingenieurprojekten für nachhaltige Infrastrukturentwicklung. Erfordert 5+ Jahre Erfahrung im Bauwesen oder Maschinenbau.">Lead engineering projects for sustainable infrastructure development. Requires 5+ years experience in civil or mechanical engineering.</p>
+          <div class="job-salary">€70,000 - €90,000</div>
+          <a href="#contact" class="btn btn-outline" data-en="Apply Now" data-de="Jetzt bewerben">Apply Now</a>
+        </div>
+
+        <div class="job-card" data-category="management">
+          <div class="job-header">
+            <span class="job-type" data-en="Full-time" data-de="Vollzeit">Full-time</span>
+          </div>
+          <h3 data-en="Operations Manager" data-de="Betriebsleiter">Operations Manager</h3>
+          <p class="job-company">Global Logistics GmbH</p>
+          <div class="job-details">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Frankfurt, Germany</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <span data-en="Posted 5 days ago" data-de="Vor 5 Tagen veröffentlicht">Posted 5 days ago</span></span>
+          </div>
+          <p class="job-description" data-en="Oversee daily operations and manage a team of 50+ employees. Strong leadership and logistics experience required." data-de="Überwachung des Tagesgeschäfts und Führung eines Teams von über 50 Mitarbeitern. Starke Führungs- und Logistikerfahrung erforderlich.">Oversee daily operations and manage a team of 50+ employees. Strong leadership and logistics experience required.</p>
+          <div class="job-salary">€80,000 - €100,000</div>
+          <a href="#contact" class="btn btn-outline" data-en="Apply Now" data-de="Jetzt bewerben">Apply Now</a>
+        </div>
+
+        <div class="job-card" data-category="consulting">
+          <div class="job-header">
+            <span class="job-type" data-en="Contract" data-de="Vertrag">Contract</span>
+            <span class="job-remote" data-en="Remote" data-de="Remote">Remote</span>
+          </div>
+          <h3 data-en="Business Development Consultant" data-de="Business Development Berater">Business Development Consultant</h3>
+          <p class="job-company">Macrolinks Associates</p>
+          <div class="job-details">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> <span data-en="Remote / Europe" data-de="Remote / Europa">Remote / Europe</span></span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <span data-en="Posted 1 week ago" data-de="Vor 1 Woche veröffentlicht">Posted 1 week ago</span></span>
+          </div>
+          <p class="job-description" data-en="Help clients expand into new markets. Experience in international business development and fluency in multiple languages preferred." data-de="Unterstützung von Kunden bei der Expansion in neue Märkte. Erfahrung in internationaler Geschäftsentwicklung und Mehrsprachigkeit bevorzugt.">Help clients expand into new markets. Experience in international business development and fluency in multiple languages preferred.</p>
+          <div class="job-salary">€600 - €800 <span data-en="per day" data-de="pro Tag">per day</span></div>
+          <a href="#contact" class="btn btn-outline" data-en="Apply Now" data-de="Jetzt bewerben">Apply Now</a>
+        </div>
+
+        <div class="job-card" data-category="engineering">
+          <div class="job-header">
+            <span class="job-type" data-en="Full-time" data-de="Vollzeit">Full-time</span>
+          </div>
+          <h3 data-en="Environmental Engineer" data-de="Umweltingenieur">Environmental Engineer</h3>
+          <p class="job-company">GreenTech Solutions</p>
+          <div class="job-details">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Berlin, Germany</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <span data-en="Posted 3 days ago" data-de="Vor 3 Tagen veröffentlicht">Posted 3 days ago</span></span>
+          </div>
+          <p class="job-description" data-en="Work on sustainable development projects. Focus on environmental impact assessments and green technology implementation." data-de="Arbeit an nachhaltigen Entwicklungsprojekten. Fokus auf Umweltverträglichkeitsprüfungen und Implementierung grüner Technologien.">Work on sustainable development projects. Focus on environmental impact assessments and green technology implementation.</p>
+          <div class="job-salary">€55,000 - €70,000</div>
+          <a href="#contact" class="btn btn-outline" data-en="Apply Now" data-de="Jetzt bewerben">Apply Now</a>
+        </div>
+
+        <div class="job-card" data-category="management">
+          <div class="job-header">
+            <span class="job-type" data-en="Full-time" data-de="Vollzeit">Full-time</span>
+            <span class="job-new" data-en="New" data-de="Neu">New</span>
+          </div>
+          <h3 data-en="HR Manager - International" data-de="HR Manager - International">HR Manager - International</h3>
+          <p class="job-company">European Trade Corp</p>
+          <div class="job-details">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Vienna, Austria</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <span data-en="Posted 1 day ago" data-de="Vor 1 Tag veröffentlicht">Posted 1 day ago</span></span>
+          </div>
+          <p class="job-description" data-en="Lead HR operations across multiple European offices. Experience with international labor law and talent acquisition required." data-de="Leitung der HR-Operationen in mehreren europäischen Niederlassungen. Erfahrung mit internationalem Arbeitsrecht und Talentakquise erforderlich.">Lead HR operations across multiple European offices. Experience with international labor law and talent acquisition required.</p>
+          <div class="job-salary">€75,000 - €95,000</div>
+          <a href="#contact" class="btn btn-outline" data-en="Apply Now" data-de="Jetzt bewerben">Apply Now</a>
+        </div>
+
+        <div class="job-card" data-category="consulting">
+          <div class="job-header">
+            <span class="job-type" data-en="Part-time" data-de="Teilzeit">Part-time</span>
+          </div>
+          <h3 data-en="Language Training Specialist" data-de="Sprachtraining-Spezialist">Language Training Specialist</h3>
+          <p class="job-company">Macrolinks Associates</p>
+          <div class="job-details">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Munich, Germany</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <span data-en="Posted 2 weeks ago" data-de="Vor 2 Wochen veröffentlicht">Posted 2 weeks ago</span></span>
+          </div>
+          <p class="job-description" data-en="Deliver in-house language training for corporate clients. Native English or German speaker with teaching certification required." data-de="Durchführung von firmeninternen Sprachschulungen für Firmenkunden. Englischer oder deutscher Muttersprachler mit Lehrzertifikat erforderlich.">Deliver in-house language training for corporate clients. Native English or German speaker with teaching certification required.</p>
+          <div class="job-salary">€40 - €60 <span data-en="per hour" data-de="pro Stunde">per hour</span></div>
+          <a href="#contact" class="btn btn-outline" data-en="Apply Now" data-de="Jetzt bewerben">Apply Now</a>
+        </div>
+      </div>
+
+      <div class="jobs-cta">
+        <p data-en="Don't see a position that fits? Send us your CV and we'll keep you in mind for future opportunities." data-de="Keine passende Stelle gefunden? Senden Sie uns Ihren Lebenslauf und wir berücksichtigen Sie für zukünftige Möglichkeiten.">Don't see a position that fits? Send us your CV and we'll keep you in mind for future opportunities.</p>
+        <a href="#contact" class="btn btn-primary" data-en="Submit Your CV" data-de="Lebenslauf einreichen">Submit Your CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="section-header left">
+            <span class="section-tag" data-en="Get in Touch" data-de="Kontaktieren Sie uns">Get in Touch</span>
+            <h2 data-en="Let's Work Together" data-de="Lassen Sie uns zusammenarbeiten">Let's Work Together</h2>
+          </div>
+
+          <p class="contact-description" data-en="Whether you're looking for talent, seeking new opportunities, or need business consultancy services, we're here to help." data-de="Ob Sie Talente suchen, neue Möglichkeiten erkunden oder Unternehmensberatung benötigen - wir sind für Sie da.">Whether you're looking for talent, seeking new opportunities, or need business consultancy services, we're here to help.</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-text">
+                <h4 data-en="Munich Office" data-de="Münchner Büro">Munich Office</h4>
+                <p>Putzbrunner Str. 36<br>85521 Ottobrunn, Germany</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact-text">
+                <h4 data-en="Phone" data-de="Telefon">Phone</h4>
+                <p><a href="tel:+498960850499">+49 89 6085 0499</a></p>
+                <p class="small">Fax: +49 89 6085 0484</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-text">
+                <h4 data-en="Email" data-de="E-Mail">Email</h4>
+                <p><a href="mailto:info@macrolinks.org">info@macrolinks.org</a></p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+              <div class="contact-text">
+                <h4 data-en="Website" data-de="Webseite">Website</h4>
+                <p><a href="https://www.macrolinks.org" target="_blank">www.macrolinks.org</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName" data-en="First Name" data-de="Vorname">First Name</label>
+                <input type="text" id="firstName" name="firstName" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName" data-en="Last Name" data-de="Nachname">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email" data-en="Email Address" data-de="E-Mail-Adresse">Email Address</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="subject" data-en="Subject" data-de="Betreff">Subject</label>
+              <select id="subject" name="subject" required>
+                <option value="" data-en="Select an option" data-de="Option auswählen">Select an option</option>
+                <option value="recruitment" data-en="Recruitment Services" data-de="Rekrutierungsdienste">Recruitment Services</option>
+                <option value="job" data-en="Job Application" data-de="Bewerbung">Job Application</option>
+                <option value="training" data-en="Training Services" data-de="Schulungsdienste">Training Services</option>
+                <option value="consulting" data-en="Business Consulting" data-de="Unternehmensberatung">Business Consulting</option>
+                <option value="other" data-en="Other Inquiry" data-de="Andere Anfrage">Other Inquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message" data-en="Your Message" data-de="Ihre Nachricht">Your Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-group file-upload">
+              <label for="cv" data-en="Attach CV (optional)" data-de="Lebenslauf anhängen (optional)">Attach CV (optional)</label>
+              <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx">
+              <span class="file-hint" data-en="PDF, DOC, or DOCX (max 5MB)" data-de="PDF, DOC oder DOCX (max 5MB)">PDF, DOC, or DOCX (max 5MB)</span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" data-en="Send Message" data-de="Nachricht senden">Send Message</button>
+          </form>
+        </div>
       </div>
     </div>
   </section>
@@ -74,8 +491,63 @@
       <span data-en="Worldwide support and consultancy for sustainable development." data-de="Weltweite Unterstützung und Beratung für nachhaltige Entwicklung.">Worldwide support and consultancy for sustainable development.</span>
       <span data-en="Worldwide support and consultancy for sustainable development." data-de="Weltweite Unterstützung und Beratung für nachhaltige Entwicklung.">Worldwide support and consultancy for sustainable development.</span>
       <span data-en="Worldwide support and consultancy for sustainable development." data-de="Weltweite Unterstützung und Beratung für nachhaltige Entwicklung.">Worldwide support and consultancy for sustainable development.</span>
+      <span data-en="Worldwide support and consultancy for sustainable development." data-de="Weltweite Unterstützung und Beratung für nachhaltige Entwicklung.">Worldwide support and consultancy for sustainable development.</span>
     </div>
   </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="logo-cog"></div>
+            <span>MACROLINKS</span>
+          </div>
+          <p class="footer-tagline" data-en="An integrated approach to business" data-de="Ein integrierter Ansatz für Unternehmen">An integrated approach to business</p>
+          <p data-en="Providing worldwide support and consultancy for sustainable development since 1998." data-de="Weltweite Unterstützung und Beratung für nachhaltige Entwicklung seit 1998.">Providing worldwide support and consultancy for sustainable development since 1998.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4 data-en="Quick Links" data-de="Schnelllinks">Quick Links</h4>
+          <ul>
+            <li><a href="#home" data-en="Home" data-de="Startseite">Home</a></li>
+            <li><a href="#about" data-en="About Us" data-de="Über uns">About Us</a></li>
+            <li><a href="#services" data-en="Services" data-de="Leistungen">Services</a></li>
+            <li><a href="#jobs" data-en="Job Opportunities" data-de="Stellenangebote">Job Opportunities</a></li>
+            <li><a href="#contact" data-en="Contact" data-de="Kontakt">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4 data-en="Services" data-de="Leistungen">Services</h4>
+          <ul>
+            <li><a href="#services" data-en="Recruitment" data-de="Rekrutierung">Recruitment</a></li>
+            <li><a href="#services" data-en="Training" data-de="Schulung">Training</a></li>
+            <li><a href="#services" data-en="Project Management" data-de="Projektmanagement">Project Management</a></li>
+            <li><a href="#services" data-en="Business Consulting" data-de="Unternehmensberatung">Business Consulting</a></li>
+            <li><a href="#services" data-en="Market Research" data-de="Marktforschung">Market Research</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4 data-en="Contact Us" data-de="Kontakt">Contact Us</h4>
+          <p>Putzbrunner Str. 36<br>85521 Ottobrunn, Germany</p>
+          <p><a href="tel:+498960850499">+49 89 6085 0499</a></p>
+          <p><a href="mailto:info@macrolinks.org">info@macrolinks.org</a></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 Macrolinks Associates. <span data-en="All rights reserved." data-de="Alle Rechte vorbehalten.">All rights reserved.</span></p>
+        <div class="footer-legal">
+          <a href="#" data-en="Privacy Policy" data-de="Datenschutz">Privacy Policy</a>
+          <a href="#" data-en="Terms of Service" data-de="AGB">Terms of Service</a>
+          <a href="#" data-en="Impressum" data-de="Impressum">Impressum</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="/js/main.js"></script>
 </body>
