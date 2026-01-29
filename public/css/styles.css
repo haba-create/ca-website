@@ -633,6 +633,20 @@ ul {
   background: var(--grey-light);
 }
 
+.services-banner {
+  margin: 40px 0;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+.services-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
