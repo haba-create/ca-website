@@ -634,10 +634,11 @@ ul {
 }
 
 .services-banner {
-  margin: 40px 0;
+  margin: 40px auto;
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-lg);
+  max-width: 900px;
 }
 
 .services-banner img {
