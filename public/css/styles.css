@@ -634,18 +634,20 @@ ul {
 }
 
 .services-banner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
   margin: 40px auto;
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  box-shadow: var(--shadow-lg);
   max-width: 900px;
 }
 
 .services-banner img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
   object-fit: cover;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
 }
 
 .services-grid {
@@ -1295,6 +1297,11 @@ ul {
 
   .services-grid {
     grid-template-columns: 1fr;
+  }
+
+  .services-banner {
+    grid-template-columns: 1fr;
+    max-width: 400px;
   }
 
   .service-card.featured {
